@@ -45,6 +45,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+- The first I did was start looking for how to use github pages. 
+I had a little trouble as I could not use a custom domain 
+(because of my DNS provider) so I just used the default domain
 
 ### Built with
 
