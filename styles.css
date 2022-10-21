@@ -10,7 +10,7 @@
 
 html {
         font-family: 'Outfit', sans-serif;
-        font-size: 18px;
+        font-size: 15px;
         color: hsl(215, 51%, 70%);
 }
 
@@ -26,30 +26,50 @@ body {
         background-color: hsl(216, 50%, 16%);
         border-radius: 10px;
         padding: 20px;
-        width: 350px;
+        width: 325px;
         height: 550px;
-        /* width: 275px;
-        height: 450px; */
         box-shadow: 0 0 30px 0px black;
 }
 
-.bg-image {
+.card__image {
         background-image: url(./images/image-equilibrium.jpg);
         background-size: cover;
         background-position: center center;
         border-radius: 7px;
         width: 100%;
         height: 300px;
+        display: flex; justify-content: center; align-items: center;
 }
 
-.nft-title {
+.card__image-hover {
+        background-color: hsl(178, 100%, 50%);
+        width: 100%;
+        height: 300px;
+        display: flex; justify-content: center; align-items: center;
+        border-radius: 7px;
+        opacity: 0;
+}
+
+.card__image-hover:hover {
+        transition: .2s all;
+        opacity: 0.6;
+        cursor: pointer;
+        color: red;
+}
+
+.card__title {
         font-size: 20px;
         margin: 20px 0px;
         color: hsl(0, 0%, 100%);
-        font-weight: 400;
+        font-weight: 600;
+}
+.card__title:hover {
+        transition: .2s all;
+        color: hsl(178, 100%, 50%); 
+        cursor: pointer;
 }
 
-.paragraph {
+.card__paragraph {
         font-weight: 300;
 }
 
@@ -60,6 +80,7 @@ body {
 }
 
 .container-stats-price {
+        margin-left: -105px;
         color: hsl(178, 100%, 50%);
         font-weight: 600;
 }
@@ -68,13 +89,37 @@ body {
         font-weight: 300;
 }
 
+#clock-icon {
+        margin-right: -105px;
+}
+
 hr {
         border: 1px solid hsl(215, 32%, 27%);
         margin: 10px 0px;
 }
 
 .author {
-        margin-top: 15px;
+        display: flex;
+        align-items: center;
+}
+
+.avatar {
+        width: 10%;
+        border: 1px solid white;
+        border-radius: 100%;
+}
+
+.author-p1 {
+        margin-left: 15px;
         font-weight: 300;
         text-align: center;
+}
+.author-p2 {
+        margin-left: 5px;
+        color: hsl(0, 0%, 100%);
+}
+.author-p2:hover {
+        transition: .2s all;
+        color: hsl(178, 100%, 50%);
+        cursor: pointer; 
 }
