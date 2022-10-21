@@ -19,7 +19,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ![](./screenNFTcard.png)
 
 ### Links
-- Live Site URL: [The github Page](https://nano1104.github.io/nftcard-preview/)
+- Live Site URL: [View Site](https://nano1104.github.io/nftcard-preview/)
  
 ## My process
 - The first I did was start looking for how to use github pages. 
